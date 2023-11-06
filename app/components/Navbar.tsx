@@ -85,7 +85,7 @@ export default function WithSubnavigation() {
               bg: "red.300",
             }}
           >
-            Sign Up
+            Get in Touch
           </Button>
         </Stack>
       </Flex>
@@ -262,7 +262,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    href: "#",
+    href: "/",
   },
   {
     label: "About Us",
